@@ -23,3 +23,18 @@ tags:
 [ReactiveX](http://reactivex.io/)   [RxJS](http://sculove.github.io/blog/2017/10/07/rxjsbook4/)   [RxJS maps](https://boxfoxs.tistory.com/413)
 
 [Funtional Programming]
+
+
+[MSA]
+
+[RESTful] [REST API]
+
+[MySql][MariaDB]
+
+[MongoDB]
+
+[Docker]
+
+[Scala]
+
+[Vue.js]
