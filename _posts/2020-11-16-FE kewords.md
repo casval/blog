@@ -31,7 +31,7 @@ tags:
 
 [MySql][MariaDB]
 
-[MongoDB](https://poiemaweb.com/mongdb-basics) / [manual](https://docs.mongodb.com/manual/)
+[MongoDB](https://poiemaweb.com/mongdb-basics) / [manual](https://docs.mongodb.com/manual/) / [Velopert의 강좌](https://velopert.com/436)
 
 [Docker]
 
