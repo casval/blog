@@ -31,7 +31,7 @@ tags:
 
 [MySql][MariaDB]
 
-[MongoDB]
+[MongoDB](https://poiemaweb.com/mongdb-basics) / [manual](https://docs.mongodb.com/manual/)
 
 [Docker]
 
