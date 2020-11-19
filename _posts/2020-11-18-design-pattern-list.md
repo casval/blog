@@ -66,7 +66,8 @@ tags:
 ## 행위(Behavioral) 패턴
 ### 책임 연쇄(Chain of Responsibility)
 ### 커맨드(Command)
-- 특정 객체에 대한 커맨드를 객체화하여 이 커맨드 객체를 필요에 따라 처리하는 패턴.
+- 특정 객체에 대한 커맨드를 객체화하여 이 커맨드 객체를 필요에 따라 처리하는 패턴
+
 ### 인터프리터(Interpreter)
 ### 이터레이터(Iterator)
 ### 미디에이터(Mediator)
