@@ -4,7 +4,7 @@ title: 디자인 패턴의 종류
 categories:
   - study
 tags:
-  - 디자인패턴
+  - design-pattern
 ---
 
 1. 커맨드
