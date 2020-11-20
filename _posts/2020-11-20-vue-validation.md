@@ -1,3 +1,9 @@
+---
+tags:
+  - front-end
+  - vue
+---
+
 # Vue의 Form Validation
 
 HTML5는 required 속성을 제공하여 빈 인풋에 대한 validation을 제공한다.
@@ -13,6 +19,15 @@ HTML5는 required 속성을 제공하여 빈 인풋에 대한 validation을 제�
 ## .prevent modifier
 
 Event modifier로 submit 이벤트가 페이지를 다시 로드하는 것을 방지하는 데 사용되는 이벤트 수정자.
+
+```html
+<form class="review-form" @submit.prevent="onSubmit">
+      <p>
+        <label for="name">Name:</label>
+        <input id="name" v-model="name" placeholder="name">
+      </p>
+    ...
+```
 
 
 
@@ -35,4 +50,3 @@ Number(this.coffee)
 
 
 출처: [Vue.js: Forms & v-model - Intro to Vue2](https://www.vuemastery.com/courses/intro-to-vue-js/forms)
-
