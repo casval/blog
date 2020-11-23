@@ -2,7 +2,7 @@
 title: 성능 최적화
 tags:
   - javascript
-  - frot-end
+  - front-end
 ---
 # 웹 페이지 성능 최적화
 
