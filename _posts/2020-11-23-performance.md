@@ -150,3 +150,5 @@ selector를 최소화하여 사용하도록 한다.
 
 HTML, JS, CSS 모두 압축 사용 가능. 불필요한 주석이나 공백을 제거 후 난독화 하여 사용한다.
 
+
+출처: [TOAST UI - 성능 최적화](https://ui.toast.com/fe-guide/ko_PERFORMANCE#%EA%B0%84%EA%B2%B0%ED%95%9C-css-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%82%AC%EC%9A%A9)
