@@ -3,7 +3,9 @@ title: 성능 최적화
 tags:
   - javascript
   - front-end
+
 ---
+
 # 웹 페이지 성능 최적화
 
 ## 리소스 요청 수 줄이기
@@ -151,4 +153,38 @@ selector를 최소화하여 사용하도록 한다.
 HTML, JS, CSS 모두 압축 사용 가능. 불필요한 주석이나 공백을 제거 후 난독화 하여 사용한다.
 
 
-출처: [TOAST UI - 성능 최적화](https://ui.toast.com/fe-guide/ko_PERFORMANCE#%EA%B0%84%EA%B2%B0%ED%95%9C-css-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%82%AC%EC%9A%A9)
+
+## 적적한 script 로딩 위치
+
+```html
+<html>
+    <head>
+        <!-- case A. js 파일 로딩  -->
+    </head>
+    <body>
+        <p> Render Test </p>
+        <!-- case B. js 파일 로딩 -->
+        <p> Render Test </p>
+        <!-- case C. js 파일 로딩 -->
+    </body>
+</html>
+```
+
+```
+A의 경우 head 안의 모든 스크립트가 로딩 된 후 body가 파싱 되므로 페이지가 느리게 보인다.
+First Paint Time이 느려짐
+
+B의 경우 script 내부에 DOM을 변경하는 작업이 있을 수 있기 때문에 DOM parsing 이 block 된다.
+
+C의 경우 랜더링이 완료 된 이후 로딩 되기 때문에 화면을 먼저 보여줄 수 있다.
+```
+
+- 시각적으로 빠른 화면을 제공하기 위해, **head**에는 꼭 필요한 레이아웃 구성에 필요한 **CSS 파일**만 넣는다.
+- BODY 태그 안에서는 CSS나 Script를 넣지 않는다. **전체 랜더링이 잠시 중단**될 수 있다.
+- Script는 **body 태그 닫기 전**에 넣는다.
+
+
+
+
+참조 1: [TOAST UI - 성능 최적화](https://ui.toast.com/fe-guide/ko_PERFORMANCE#%EA%B0%84%E%B2%B0%ED%95%9C-css-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%82%AC%EC%9A%A9)
+참조 2: [HTML5를 이용한 Front-End 성능 개선](https://sculove.github.io/slides/performanceWithHTML5/#/23)
