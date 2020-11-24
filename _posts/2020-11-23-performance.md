@@ -187,4 +187,5 @@ C의 경우 랜더링이 완료 된 이후 로딩 되기 때문에 화면을 먼
 
 
 참조 1: [TOAST UI - 성능 최적화](https://ui.toast.com/fe-guide/ko_PERFORMANCE#%EA%B0%84%E%B2%B0%ED%95%9C-css-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%82%AC%EC%9A%A9)
+
 참조 2: [HTML5를 이용한 Front-End 성능 개선](https://sculove.github.io/slides/performanceWithHTML5/#/23)
