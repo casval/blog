@@ -25,7 +25,10 @@ document.getElementById('testBox').style.width = "100px";
 
 ### Layer의 구성
 
-- layer 모델 설명
+- front layer > mask layer + shape layer > back layer
+- 레이어들을 배치 후 합성하여 최종적인 웹 페이지 생성
+- 레이어의 이미지는 텍스쳐로써 paint 작업시, CPU에 의해 Video Memory에 로드 되는데, 이것은 레이어 생성 비용이 크고, 추가 메모리가 필요하다는 것을 의미.
+- 레이어의 비용을 줄이기 위해 paint 작업을 줄이는게 필요.
 
 ### Rendering 성능 개선의 목표 분석
 
@@ -61,4 +64,5 @@ Layout, Paint를 유발하는 속성을 사용하지 않고, 대안을 사용하
 
 
 참조: [FrontEnd 개발자가 수행하는 성능 개선 작업 - 손찬욱](https://sculove.github.io/slides/improveBrowserRendering/#/)
+
 
