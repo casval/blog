@@ -2,9 +2,9 @@
 layout: post
 title: N으로 표현
 categories:
-  - algorithm
+  - 동적계획법
 tags: 
-  - 알고리즘 - 동적계획법
+  - 알고리즘
 ---
 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
