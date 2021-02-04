@@ -4,7 +4,7 @@ title: 함수형 프로그래밍
 categories:
   - study
 tags:
-  - front-end
+  - javascript
 ---
 
 # 함수형 프로그래밍의 컨셉
