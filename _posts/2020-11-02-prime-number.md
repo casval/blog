@@ -2,9 +2,9 @@
 layout: post
 title: 소수찾기
 categories:
-  - algorithm
+  - 완전탐색
 tags: 
-  - 알고리즘 - 완전탐색
+  - 알고리즘
 ---
 
 # 소수찾기
