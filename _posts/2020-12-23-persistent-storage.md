@@ -2,9 +2,9 @@
 layout: post
 title: Persistent storage
 categories:
-  - back-end
-tags:
   - kubernetes
+tags:
+  - back-end
 ---
 
 ## Storage in Paas 
