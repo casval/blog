@@ -2,9 +2,9 @@
 layout: post
 title: 가장 큰 수
 categories:
-  - algorithm
+  - 정렬
 tags: 
-  - 알고리즘 - 정렬
+  - 알고리즘
 ---
 소트 함수를 구현하는 간단한 문제 였지만, 난 어렵게 생각하고 객체까지 만들며 풀었다...
 
