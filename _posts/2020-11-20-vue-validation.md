@@ -1,7 +1,10 @@
 ---
+layout: post
+title: Vueform  validateion
+categories:
+  - vue
 tags:
   - front-end
-  - vue
 ---
 
 # Vue의 Form Validation
