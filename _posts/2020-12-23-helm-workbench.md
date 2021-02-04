@@ -2,10 +2,10 @@
 layout: post
 title: workbench helm command
 categories:
-  - back-end
+  - dep workbench
+  - helm
 tags:
-  - kubernetes
-  - helm chart
+  - back-end
 ---
 ## Helm
 
