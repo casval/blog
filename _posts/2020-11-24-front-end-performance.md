@@ -1,5 +1,9 @@
+
 ---
+layout: post
 title: Web 성능 개선
+categories:
+  - study
 tags:
   - front-end
 ---
