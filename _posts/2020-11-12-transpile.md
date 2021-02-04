@@ -4,7 +4,7 @@ title: transpile이란?
 categories:
   - study
 tags:
-  - front-end
+  - study
 ---
 
 # transpile 이란?
