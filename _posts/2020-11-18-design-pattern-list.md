@@ -4,7 +4,7 @@ title: 디자인 패턴의 종류
 categories:
   - study
 tags:
-  - design-pattern
+  - study
 ---
 
 # 디자인 패턴
