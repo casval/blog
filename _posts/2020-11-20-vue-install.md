@@ -1,7 +1,10 @@
 ---
+layout: post
+title: Vue install
+categories:
+  - vue
 tags:
   - front-end
-  - vue
 ---
 
 # Vue.js 사용법
