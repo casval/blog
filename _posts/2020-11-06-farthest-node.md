@@ -2,9 +2,9 @@
 layout: post
 title: 가장 먼 노드
 categories:
-  - algorithm
+  - 그래프
 tags: 
-  - 알고리즘 - 그래프
+  - 알고리즘
 ---
 [문제](https://programmers.co.kr/learn/courses/30/lessons/49189)
 
