@@ -2,9 +2,9 @@
 layout: post
 title: 타겟 넘버
 categories:
-  - algorithm
+  - DFS/BFS
 tags: 
-  - 알고리즘 - DFS/BFS
+  - 알고리즘
 ---
 # 타겟 넘버
 [문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
