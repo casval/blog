@@ -2,9 +2,9 @@
 layout: post
 title: 완주하지못한선수
 categories:
-  - algorithm
+  - 해시
 tags: 
-  - 알고리즘 - 해시
+  - 알고리즘
 ---
 
 오랜만에 푼 알고리즘.
