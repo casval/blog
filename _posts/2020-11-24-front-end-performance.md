@@ -7,6 +7,8 @@ categories:
 tags:
   - front-end
 ---
+
+
 # Rendering  성능 개선
 
 Chrome browser의 **Timeline Panel**을 이용하여 분석을 한다.
