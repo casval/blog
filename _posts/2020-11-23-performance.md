@@ -1,9 +1,10 @@
 ---
+layout: post
 title: 성능 최적화
+categories:
+  - study
 tags:
-  - javascript
   - front-end
-
 ---
 
 # 웹 페이지 성능 최적화
