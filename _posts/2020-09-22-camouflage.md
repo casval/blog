@@ -2,10 +2,11 @@
 layout: post
 title: 위장
 categories:
-  - algorithm
+  - 해시
 tags: 
-  - 알고리즘 - 해시
+  - 알고리즘
 ---
+
 대장, 소장 같은 위장(胃, stomach)이 아니라... [위장(僞裝)](https://namu.wiki/w/%EC%9C%84%EC%9E%A5)
 
 ```
@@ -34,4 +35,3 @@ function solution(clothes) {
 - [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) 사용법에 대한 이해 필요.
 
 [출처: programmers](https://programmers.co.kr/learn/courses/30/lessons/42578)
-
