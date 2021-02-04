@@ -4,7 +4,7 @@ title: ES6+
 categories:
   - study
 tags:
-  - front-end
+  - javascript
 ---
 
 1. [Symbol](https://poiemaweb.com/es6-symbol)
