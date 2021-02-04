@@ -2,9 +2,9 @@
 layout: post
 title: 디스크 컨트롤러
 categories:
-  - algorithm
+  - 힙(Heap)
 tags: 
-  - 알고리즘 - 힙(Heap)
+  - 알고리즘
 ---
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42627)
 
