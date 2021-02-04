@@ -2,9 +2,9 @@
 layout: post
 title: K번째수
 categories:
-  - algorithm
+  - 정렬
 tags: 
-  - 알고리즘 - 정렬
+  - 알고리즘
 ---
 
 # K번째수
