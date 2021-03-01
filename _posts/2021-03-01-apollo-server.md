@@ -30,7 +30,7 @@ server.listen().then(data => {
 
 * apollo-server에서 ApolloServer를 가져와 서버를 실행한다.
 * 서버 실행시 인자는 graphql을 이용하여 정의한 typeDefs와 resolvers를 인자로 받는다.
-  * typeDef: GraphQL 명세에서 사용될 데이터, 요청의 타입 정의, gql (template literal tag)로 생성됨
+  * typeDef: GraphQL 명세에서 사용될 데이터, 요청의 타입 정의, gql ([template literal tag](https://casval.github.io/study/2021/02/28/tagged-template-literals/))로 생성됨
   * resolver: 서비스의 액션들을 함수로 지정, 요청에 따라 데이터를 CRUD
 
 ### GraphQL Playground
