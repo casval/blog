@@ -374,3 +374,4 @@ server.listen().then(data => {
 })
 ```
 
+참조: [얄팍한 코딩사전](https://www.yalco.kr/lectures/graphql-apollo/)
