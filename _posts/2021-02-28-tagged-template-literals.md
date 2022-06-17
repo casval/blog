@@ -40,12 +40,12 @@ const getSnackTaste = (arr, eat, flavor) => {
 }
 
 getSnackTaste`Today, ${meal} is ${taste}`
-  // Today, cookie is bad~
+  // Today, milk is bad~
 ```
 
 위의 코드에서 함수 getSnackTaste의 파라미터들을 console.log로 출력해 보면 아래와 같이 나타납니다.
 
-`[Today, '', ' is ', ''] 'dinner' 'good'`
+`[Today, ', ' is ', ''] 'dinner' 'good'`
 
 Template Literals에서 사용한 문자열은 첫번째 파라미터의 배열로 들어가고 나머지 변수 값들은 각각 파라미터에 값이 들어가는 것을 확인 할 수 있습니다.
 
